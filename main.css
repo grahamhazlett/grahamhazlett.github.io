@@ -6,9 +6,9 @@ body {
   color: #DDDDDD;
 }
 
-h1 { font-size: 4em }
+h1 { font-size: 5em }
 
-p { font-size: 1.5em }
+p { font-size: 1.4em }
 
 a { color: #AAAACC }
 
@@ -24,8 +24,8 @@ a { color: #AAAACC }
 .title {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: .6em;
+    margin-bottom: .6em;
     border-bottom: solid;
     border-color: #AAAACC;
     border-width: 2px
@@ -33,8 +33,8 @@ a { color: #AAAACC }
 
 @media only screen and (max-width: 1000px) {
   .main-container {
-      margin-left: 2.5%;
-      margin-right: 2.5%;
+      margin-left: 20px;
+      margin-right: 20px;
       width: auto;
   }
 
@@ -43,18 +43,12 @@ a { color: #AAAACC }
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .main-container {
-      margin-left: 12px;
-      margin-right: 12px;
-      width: auto;
-  }
-
+@media only screen and (max-width: 767px) {
   .title {
-    font-size: 10vw;
+    font-size: 12vw;
   }
 
   p {
-    font-size: 1.25em;
+    font-size: 1.15em;
   }
 }
