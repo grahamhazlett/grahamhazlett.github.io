@@ -54,3 +54,79 @@ a { color: #AAAACC }
     font-size: 18px;
   }
 }
+
+/* Writing shares the homepage's type, colors, and responsive text sizes. */
+.writing-page {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  font-size: 22px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.writing-page p { font-size: inherit }
+
+.writing-title {
+  margin: .6em 0 .4em;
+  padding-bottom: .2em;
+  border-bottom: 2px solid #AAAACC;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.article-list {
+  list-style: none;
+  margin: 1.5em 0 0;
+  padding: 0;
+}
+
+.article-list li { margin-bottom: 1.2em }
+
+.article-list time {
+  display: block;
+  font-size: .85em;
+}
+
+.writing-page .post-date {
+  margin-top: 0;
+  font-size: .85em;
+}
+
+.article-body { margin-top: 2em }
+.article-body h2 { font-size: 1.4em }
+.article-body h3 { font-size: 1.15em }
+.article-body h4,
+.article-body h5,
+.article-body h6 { font-size: 1em }
+
+.article-body blockquote {
+  margin: 1.5em 0;
+  padding-left: 1em;
+  border-left: 2px solid #AAAACC;
+}
+
+.article-body pre {
+  padding: 1em;
+  border: 1px solid #AAAACC;
+  overflow-x: auto;
+}
+
+.article-body code { font-size: .8em }
+.article-body pre code { font-size: 1em }
+.article-body pre { font-size: .8em }
+.article-body img { max-width: 100%; height: auto }
+.article-body hr { border: 0; border-top: 1px solid #AAAACC }
+.article-body table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse }
+.article-body th,
+.article-body td { padding: .4em .7em; border: 1px solid #AAAACC; text-align: left }
+.writing-page footer { margin-top: 2em }
+.writing-page a:focus-visible { outline: 2px solid #AAAACC; outline-offset: 4px }
+
+@media only screen and (max-width: 1000px) {
+  .writing-page { font-size: 2.3vw }
+}
+
+@media only screen and (max-width: 767px) {
+  .writing-page { font-size: 18px }
+}
